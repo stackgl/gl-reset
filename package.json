@@ -1,0 +1,40 @@
+{
+  "name": "gl-reset",
+  "version": "1.0.0",
+  "description": "Completely reset the state of a WebGL context, deleting any allocated resources",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "browserify test.js | smokestack --tape | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^6.2.0",
+    "smokestack": "^2.0.0",
+    "tap-spec": "^1.0.1",
+    "tape": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackgl/gl-reset.git"
+  },
+  "keywords": [
+    "webgl",
+    "stackgl",
+    "gl",
+    "reset",
+    "state",
+    "remove",
+    "delete",
+    "purge"
+  ],
+  "homepage": "https://github.com/stackgl/gl-reset",
+  "bugs": {
+    "url": "https://github.com/stackgl/gl-reset/issues"
+  }
+}
